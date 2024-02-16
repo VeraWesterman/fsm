@@ -1,12 +1,4 @@
-# Finite State Machine Designer (Updated)
-
-Original: http://madebyevan.com/fsm/
-
-Note: This repo is technically forked, but I realized that the currently published version of the designer was different than the most recent github version, so I pulled the code from the site, sorted it into a few files, and put it here.
-
-Since we frequently use this FSM builder for CSE 132, I've made a few updates to make it easier to use.
-
-- Clear canvas button was added (from https://github.com/evanw/fsm/pull/6)
-- Extra instructions added for adding and deleting items
-- Added another method (shift-backspace) for deleting states & arrows
-- Fixed the broken PNG export function (from https://github.com/evanw/fsm/pull/11)
+Corpus:
+I'm comparing my personalized music library, wrapped music from 2023, with Spotify's daily mixes to assess the quality of Spotify's playlists. The daily mixes are made by spotify, based on my previous listening behaviour. I want to explore two research questions. Firstly, I want to see how closely my 2023 wrapped music matches the songs in Spotify's playlists. Secondly, I'm investigating whether Spotify organizes its playlists logically by grouping similar music together or if they vary widely. This will be done by comparing the daily mixes with each other. Additionally, I'm interested in whether Spotify only includes music from my most-listened genres or if they include songs outside of my usual preferences. My wrapped music contains mostly English pop music, but also has the occasional rock/rap and dutch songs. It contains 100 songs. Spotify provides six daily mixes, which all contain 50 songs and differ from each other in artists. The comparison of my wrapped and the daily mixes is intriguing because Spotify's algorithms are based on my typical listening habits. Although the daily mixes are influenced by all my listening behaviors, and not only by the behaviour in 2023, I believe it's still a valid comparison since my music taste hasn't changed much since last year. There are some songs in my wrapped that are in a different style then the others, one example is the song Mansion by NF, which could be categorized as hiphop. I want to explore how these outliers are represented in the daily mixes.
+Plot:
+This plot shows the energy versus the danceability. The colours show the wrapped dataset and the dailymix. In this plot you can see that the Dailymix has songs in the same range of danceability and energy as the wrapped. 
